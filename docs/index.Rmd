@@ -7,7 +7,7 @@ output: github_document
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
 htmls <- list.files(".", pattern = "html")
-url_site <- "https://curso-r.github.io/asn-shiny/"
+url_site <- "https://athospd.github.io/asn-shiny/"
 
 data.frame(
   Nome = htmls,
